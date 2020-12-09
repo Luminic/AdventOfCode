@@ -51,3 +51,17 @@ def group_by(iterable, split, inclusive=False, join_as_str=False, discard_empty=
 
     return res
 
+
+def find_indices(iterable, item, return_item=False):
+    if not callable(item): matches = lambda v: v == item
+    else: matches = item
+
+    res = []
+    for i, elem in enumerate(iterable):
+        if matches(elem):
+            if return_item:
+                res.append((i, elem))
+            else:
+                res.append(i)
+
+    return res
