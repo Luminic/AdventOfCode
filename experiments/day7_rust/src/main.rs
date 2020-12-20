@@ -77,13 +77,13 @@ fn main() {
         let mut rule_parts = rule.split("contain");
         let bag = rule_parts
             .next()
-            .expect("Could not find bag")
+            .expect("Couldn't find bag")
             .trim_matches(|c| !ASCII_LOWERCASE.contains(c))
             .remove_last_word();
 
         let contents = rule_parts
             .next()
-            .expect("Could not find bag requirements")
+            .expect("Couldn't find bag requirements")
             .split(',')
             .map(|s| s.trim_matches(|c| !"0123456789".contains(c) && !ASCII_LOWERCASE.contains(c)))
             .take_while(|v| *v != "no other bags")
@@ -91,12 +91,12 @@ fn main() {
                 let mut split = s.splitn(2, ' ');
                 let count = split
                     .next()
-                    .expect("Could not find count in bag requirements")
+                    .expect("Couldn't find count in bag requirements")
                     .parse::<u32>()
-                    .expect("Could not parse count in bag requirements");
+                    .expect("Couldn't parse count in bag requirements");
                 let bag = split
                     .next()
-                    .expect("Could not find bag in bag requirements")
+                    .expect("Couldn't find bag in bag requirements")
                     .remove_last_word();
                 (bag, count)
             })

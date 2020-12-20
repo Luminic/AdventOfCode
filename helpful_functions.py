@@ -1,3 +1,6 @@
+import functools
+from collections import defaultdict
+
 def group_by(iterable, split, inclusive=False, join_as_str=False, discard_empty=False, max_splits=-1):
     """
     Input:
@@ -64,4 +67,34 @@ def find_indices(iterable, item, return_item=False):
             else:
                 res.append(i)
 
+    return res
+
+@functools.cache
+def is_prime(num):
+    if num <= 1:
+        return False
+    for i in range(2,int(num**0.5)+1):
+        if num%i == 0: return False
+    return True
+
+def get_prime_factors(n, already=None):
+    if already == None: already = defaultdict(lambda: 0)
+    if is_prime(n):
+        already[n] += 1
+        return already
+    else:
+        for i in range(2, n):
+            if n % i == 0:
+                get_prime_factors(n // i, already)
+                get_prime_factors(i, already)
+                return already
+
+def lcm(a, b):
+    pa = get_prime_factors(a)
+    pb = get_prime_factors(b)
+    for p in pb:
+        pa[p] = max(pa[p], pb[p])
+    res = 1
+    for p in pa:
+        res *= p ** pa[p]
     return res
