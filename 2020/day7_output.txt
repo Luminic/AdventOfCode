@@ -1,0 +1,594 @@
+('pale', 'chartreuse') : {('faded', 'orange'): 3}
+('drab', 'gold') : {('dark', 'aqua'): 5}
+('mirrored', 'magenta') : {('dotted', 'violet'): 3}
+('posh', 'black') : {('dark', 'lavender'): 3, ('mirrored', 'coral'): 3, ('dotted', 'chartreuse'): 1}
+('striped', 'yellow') : {('pale', 'red'): 5, ('light', 'lime'): 2, ('clear', 'indigo'): 5}
+('bright', 'aqua') : {('vibrant', 'orange'): 2, ('clear', 'lavender'): 4, ('pale', 'gray'): 1}
+('dim', 'silver') : {('bright', 'blue'): 2, ('faded', 'olive'): 3, ('faded', 'cyan'): 1}
+('light', 'beige') : {('bright', 'silver'): 2, ('vibrant', 'crimson'): 4}
+('dull', 'cyan') : {('drab', 'beige'): 2, ('mirrored', 'turquoise'): 3, ('mirrored', 'indigo'): 2}
+('dark', 'black') : {('dull', 'turquoise'): 5, ('faded', 'cyan'): 4, ('plaid', 'coral'): 4}
+('dotted', 'bronze') : {('light', 'blue'): 3, ('dull', 'teal'): 2, ('dull', 'chartreuse'): 3, ('plaid', 'green'): 1}
+('light', 'purple') : {('clear', 'tan'): 3, ('dull', 'tan'): 3}
+('wavy', 'orange') : {('wavy', 'tan'): 3, ('faded', 'green'): 3, ('shiny', 'brown'): 1, ('dim', 'tan'): 2}
+('drab', 'beige') : {('vibrant', 'tan'): 1, ('pale', 'chartreuse'): 3, ('plaid', 'indigo'): 3, ('mirrored', 'chartreuse'): 2}
+('light', 'coral') : {('faded', 'green'): 4, ('pale', 'crimson'): 1, ('light', 'bronze'): 3, ('posh', 'blue'): 4}
+('wavy', 'coral') : {('vibrant', 'cyan'): 5, ('light', 'blue'): 5, ('dotted', 'turquoise'): 1}
+('dotted', 'plum') : {('clear', 'orange'): 1, ('drab', 'black'): 2, ('dull', 'chartreuse'): 5, ('plaid', 'fuchsia'): 5}
+('striped', 'olive') : {('clear', 'brown'): 4, ('shiny', 'beige'): 2}
+('vibrant', 'maroon') : {('dotted', 'beige'): 2, ('plaid', 'olive'): 4, ('dull', 'black'): 5, ('mirrored', 'aqua'): 5}
+('drab', 'purple') : {('light', 'green'): 2, ('clear', 'orange'): 1}
+('shiny', 'violet') : {('drab', 'white'): 5, ('dark', 'aqua'): 5, ('muted', 'gray'): 3, ('wavy', 'orange'): 4}
+('muted', 'maroon') : {('plaid', 'red'): 2, ('bright', 'silver'): 3, ('posh', 'yellow'): 5, ('bright', 'yellow'): 1}
+('clear', 'black') : {('bright', 'plum'): 1, ('faded', 'brown'): 1, ('wavy', 'chartreuse'): 4}
+('dotted', 'maroon') : {('mirrored', 'turquoise'): 5}
+('drab', 'silver') : {('vibrant', 'violet'): 2, ('muted', 'orange'): 2, ('dull', 'purple'): 4}
+('faded', 'purple') : {('bright', 'lime'): 1, ('striped', 'brown'): 2, ('dull', 'maroon'): 5, ('shiny', 'olive'): 2}
+('dull', 'maroon') : {('clear', 'lime'): 1}
+('pale', 'salmon') : {('striped', 'blue'): 5, ('posh', 'blue'): 5}
+('plaid', 'orange') : {('pale', 'coral'): 1, ('shiny', 'orange'): 3}
+('drab', 'black') : {('vibrant', 'orange'): 5, ('dotted', 'tomato'): 1, ('dim', 'red'): 2, ('muted', 'blue'): 3}
+('dotted', 'teal') : {('light', 'fuchsia'): 3, ('vibrant', 'tan'): 5}
+('plaid', 'tan') : {('dark', 'brown'): 5}
+('shiny', 'coral') : {('pale', 'green'): 2, ('muted', 'lavender'): 1}
+('plaid', 'plum') : {('drab', 'lavender'): 5, ('shiny', 'teal'): 2, ('plaid', 'tan'): 1}
+('dim', 'olive') : {('dark', 'beige'): 1, ('drab', 'coral'): 1, ('muted', 'chartreuse'): 5, ('bright', 'teal'): 4}
+('dim', 'bronze') : {('striped', 'turquoise'): 1, ('muted', 'turquoise'): 4}
+('muted', 'red') : {('dark', 'gray'): 5, ('muted', 'gray'): 4, ('muted', 'blue'): 5}
+('shiny', 'crimson') : {('dark', 'aqua'): 2, ('faded', 'fuchsia'): 4, ('faded', 'tomato'): 3}
+('vibrant', 'teal') : {('dark', 'cyan'): 1, ('wavy', 'lime'): 4, ('bright', 'crimson'): 1}
+('dark', 'yellow') : {('striped', 'coral'): 2, ('drab', 'tomato'): 1}
+('posh', 'orange') : {('wavy', 'lime'): 3, ('clear', 'lavender'): 3, ('bright', 'indigo'): 5}
+('shiny', 'orange') : {('striped', 'gold'): 3}
+('wavy', 'magenta') : {('vibrant', 'crimson'): 2, ('mirrored', 'teal'): 3, ('shiny', 'lime'): 1}
+('clear', 'indigo') : {('pale', 'green'): 2}
+('wavy', 'red') : {('plaid', 'indigo'): 5}
+('wavy', 'crimson') : {('dim', 'teal'): 2}
+('clear', 'chartreuse') : {('dull', 'gray'): 2, ('plaid', 'lime'): 4, ('striped', 'cyan'): 3}
+('muted', 'beige') : {('drab', 'white'): 2}
+('dim', 'plum') : {('vibrant', 'green'): 3, ('clear', 'red'): 1}
+('dotted', 'white') : {('wavy', 'magenta'): 5}
+('shiny', 'chartreuse') : {('striped', 'tan'): 2, ('dim', 'maroon'): 2, ('plaid', 'bronze'): 5, ('dark', 'white'): 4}
+('pale', 'green') : {('drab', 'crimson'): 5, ('dull', 'teal'): 3, ('plaid', 'red'): 4}
+('clear', 'purple') : {('light', 'indigo'): 3}
+('striped', 'brown') : {('light', 'yellow'): 1}
+('bright', 'plum') : {('faded', 'olive'): 4, ('dotted', 'crimson'): 2, ('pale', 'green'): 3, ('light', 'yellow'): 1}
+('posh', 'crimson') : {('bright', 'aqua'): 3}
+('dotted', 'olive') : {('striped', 'tomato'): 4, ('faded', 'chartreuse'): 4, ('dull', 'bronze'): 2, ('shiny', 'olive'): 2}
+('striped', 'magenta') : {('posh', 'indigo'): 2, ('dotted', 'tomato'): 3}
+('vibrant', 'chartreuse') : {('light', 'crimson'): 5, ('light', 'bronze'): 5}
+('light', 'cyan') : {('faded', 'red'): 1, ('light', 'silver'): 1}
+('faded', 'teal') : {('vibrant', 'crimson'): 5, ('drab', 'gray'): 3, ('striped', 'turquoise'): 5, ('pale', 'plum'): 1}
+('mirrored', 'aqua') : {('vibrant', 'white'): 1}
+('dull', 'violet') : {('dull', 'orange'): 2, ('light', 'green'): 1}
+('clear', 'orange') : {('dark', 'green'): 5}
+('muted', 'silver') : {('striped', 'indigo'): 4, ('mirrored', 'lime'): 3, ('bright', 'lavender'): 1}
+('posh', 'green') : {('drab', 'gold'): 4, ('dim', 'black'): 4, ('faded', 'gold'): 4}
+('dark', 'bronze') : {('faded', 'plum'): 1, ('mirrored', 'teal'): 5, ('striped', 'indigo'): 5, ('muted', 'salmon'): 4}
+('shiny', 'teal') : {('plaid', 'tomato'): 4, ('clear', 'brown'): 3, ('dull', 'silver'): 4, ('wavy', 'orange'): 2}
+('light', 'gold') : {('pale', 'tan'): 4, ('vibrant', 'gray'): 3, ('wavy', 'tan'): 5, ('dark', 'violet'): 5}
+('bright', 'indigo') : {('shiny', 'silver'): 5, ('wavy', 'indigo'): 4, ('dark', 'gold'): 5}
+('bright', 'gray') : {('shiny', 'lime'): 5, ('dull', 'aqua'): 4}
+('dotted', 'orange') : {('dim', 'red'): 1, ('striped', 'blue'): 4, ('bright', 'lavender'): 3}
+('dark', 'indigo') : {('drab', 'indigo'): 4, ('dotted', 'turquoise'): 1}
+('pale', 'lavender') : {('vibrant', 'green'): 2, ('dim', 'yellow'): 4, ('mirrored', 'yellow'): 1, ('bright', 'blue'): 1}
+('dotted', 'silver') : {('posh', 'blue'): 2, ('posh', 'maroon'): 3}
+('plaid', 'salmon') : {('light', 'yellow'): 4}
+('plaid', 'magenta') : {('striped', 'gold'): 3, ('mirrored', 'black'): 2, ('dull', 'tan'): 3}
+('wavy', 'blue') : {('faded', 'teal'): 3, ('drab', 'blue'): 4, ('dotted', 'gold'): 1}
+('muted', 'black') : {('drab', 'teal'): 1, ('muted', 'lime'): 3}
+('clear', 'violet') : {('bright', 'lavender'): 3, ('vibrant', 'plum'): 1, ('wavy', 'white'): 3, ('shiny', 'chartreuse'): 1}
+('bright', 'teal') : {('muted', 'chartreuse'): 1, ('dull', 'indigo'): 4, ('striped', 'tomato'): 5, ('drab', 'white'): 1}
+('drab', 'lime') : {('posh', 'maroon'): 3}
+('shiny', 'tan') : {('faded', 'chartreuse'): 3, ('wavy', 'orange'): 3, ('drab', 'white'): 4, ('light', 'chartreuse'): 4}
+('light', 'green') : {('dotted', 'tan'): 4, ('dim', 'salmon'): 1}
+('pale', 'tan') : {('posh', 'green'): 3}
+('light', 'gray') : {('posh', 'brown'): 3, ('dim', 'green'): 3, ('mirrored', 'tan'): 3, ('mirrored', 'yellow'): 1}
+('clear', 'gray') : {('dim', 'brown'): 4}
+('drab', 'magenta') : {('dark', 'aqua'): 4, ('faded', 'tomato'): 5}
+('pale', 'violet') : {('bright', 'violet'): 2, ('bright', 'indigo'): 1, ('muted', 'salmon'): 2}
+('vibrant', 'black') : {('bright', 'magenta'): 1, ('vibrant', 'crimson'): 4, ('clear', 'blue'): 4, ('light', 'chartreuse'): 2}
+('striped', 'white') : {('plaid', 'yellow'): 3, ('muted', 'orange'): 3, ('shiny', 'gold'): 1, ('light', 'white'): 5}
+('wavy', 'turquoise') : {('wavy', 'tan'): 5, ('posh', 'chartreuse'): 4, ('posh', 'red'): 5, ('muted', 'purple'): 3}
+('light', 'white') : {('shiny', 'brown'): 3, ('striped', 'tan'): 1, ('bright', 'lime'): 2, ('shiny', 'yellow'): 5}
+('faded', 'orange') : {('dim', 'silver'): 3, ('wavy', 'tomato'): 5, ('wavy', 'chartreuse'): 4, ('shiny', 'black'): 1}
+('mirrored', 'fuchsia') : {('plaid', 'lime'): 2, ('vibrant', 'salmon'): 3}
+('dull', 'aqua') : {('clear', 'brown'): 5, ('dull', 'indigo'): 3, ('dull', 'green'): 3, ('muted', 'gold'): 2}
+('dim', 'gray') : {('dark', 'bronze'): 5, ('dark', 'silver'): 4, ('wavy', 'cyan'): 3}
+('dull', 'tomato') : {('drab', 'tan'): 4, ('striped', 'brown'): 3}
+('dim', 'gold') : {('shiny', 'tomato'): 3, ('dim', 'tomato'): 2}
+('striped', 'beige') : {('shiny', 'violet'): 3, ('striped', 'aqua'): 3, ('muted', 'blue'): 3, ('shiny', 'gold'): 3}
+('mirrored', 'coral') : {('muted', 'coral'): 2, ('shiny', 'teal'): 3}
+('vibrant', 'white') : {('clear', 'brown'): 1, ('drab', 'gold'): 3, ('wavy', 'crimson'): 2, ('light', 'plum'): 5}
+('posh', 'tan') : {('dim', 'salmon'): 3, ('faded', 'gold'): 1, ('drab', 'gray'): 1, ('shiny', 'coral'): 4}
+('drab', 'tan') : {('bright', 'magenta'): 4, ('dull', 'green'): 3, ('drab', 'crimson'): 1, ('dark', 'green'): 4}
+('striped', 'coral') : {('drab', 'tan'): 2, ('wavy', 'purple'): 4}
+('dark', 'white') : {('bright', 'magenta'): 1}
+('striped', 'red') : {('plaid', 'black'): 3}
+('drab', 'coral') : {('dotted', 'violet'): 4, ('pale', 'magenta'): 2, ('posh', 'purple'): 5, ('light', 'lime'): 4}
+('pale', 'yellow') : {('plaid', 'black'): 5, ('shiny', 'olive'): 3, ('clear', 'brown'): 3}
+('faded', 'coral') : {('pale', 'salmon'): 2, ('dim', 'teal'): 5, ('vibrant', 'crimson'): 3}
+('faded', 'black') : {('wavy', 'white'): 2, ('faded', 'brown'): 5, ('drab', 'beige'): 4}
+('dim', 'salmon') : {('vibrant', 'white'): 4, ('wavy', 'salmon'): 3, ('wavy', 'lime'): 2, ('bright', 'purple'): 2}
+('dim', 'black') : {('dull', 'tan'): 3, ('striped', 'beige'): 2, ('plaid', 'brown'): 2}
+('plaid', 'cyan') : {('muted', 'coral'): 2, ('dim', 'red'): 3}
+('dotted', 'gold') : {('dotted', 'orange'): 3, ('striped', 'coral'): 3, ('clear', 'magenta'): 1, ('dotted', 'crimson'): 1}
+('mirrored', 'white') : {('clear', 'brown'): 4, ('drab', 'crimson'): 2, ('shiny', 'gold'): 4, ('posh', 'red'): 2}
+('vibrant', 'olive') : {('striped', 'indigo'): 4, ('dim', 'salmon'): 5, ('bright', 'magenta'): 5}
+('dim', 'teal') : {('striped', 'blue'): 5, ('dull', 'aqua'): 4, ('dark', 'cyan'): 5, ('wavy', 'magenta'): 2}
+('faded', 'chartreuse') : {}
+('clear', 'yellow') : {('wavy', 'olive'): 5, ('drab', 'tomato'): 1, ('plaid', 'red'): 2}
+('mirrored', 'bronze') : {('vibrant', 'beige'): 1, ('clear', 'cyan'): 5, ('muted', 'aqua'): 3, ('striped', 'turquoise'): 5}
+('vibrant', 'tan') : {('dull', 'tomato'): 2, ('dark', 'aqua'): 5, ('muted', 'gray'): 3}
+('light', 'olive') : {('dark', 'white'): 4, ('dim', 'teal'): 2}
+('light', 'lavender') : {('wavy', 'indigo'): 5, ('posh', 'olive'): 3, ('striped', 'brown'): 4}
+('dotted', 'gray') : {('dim', 'red'): 1, ('light', 'tomato'): 5, ('dull', 'gray'): 2, ('light', 'black'): 4}
+('plaid', 'olive') : {('wavy', 'purple'): 5, ('posh', 'blue'): 2, ('faded', 'purple'): 3, ('pale', 'fuchsia'): 1}
+('muted', 'salmon') : {('shiny', 'tan'): 5}
+('dark', 'olive') : {('mirrored', 'black'): 4}
+('striped', 'turquoise') : {('pale', 'olive'): 4, ('pale', 'tomato'): 2, ('bright', 'yellow'): 3}
+('plaid', 'fuchsia') : {('clear', 'silver'): 4}
+('vibrant', 'magenta') : {('vibrant', 'green'): 1, ('muted', 'silver'): 2, ('light', 'plum'): 4, ('pale', 'teal'): 5}
+('vibrant', 'bronze') : {('dull', 'gold'): 2, ('bright', 'coral'): 2}
+('mirrored', 'purple') : {('drab', 'tomato'): 1, ('faded', 'silver'): 3}
+('light', 'lime') : {('shiny', 'violet'): 5, ('wavy', 'aqua'): 4}
+('pale', 'gold') : {('vibrant', 'brown'): 3, ('dim', 'red'): 5}
+('dim', 'orange') : {('dark', 'cyan'): 4, ('light', 'chartreuse'): 3, ('wavy', 'orange'): 3, ('dark', 'green'): 5}
+('clear', 'fuchsia') : {('posh', 'blue'): 4, ('mirrored', 'lavender'): 4}
+('pale', 'bronze') : {('pale', 'silver'): 3, ('dotted', 'tomato'): 2, ('plaid', 'gold'): 4}
+('dotted', 'aqua') : {('drab', 'magenta'): 3, ('dull', 'green'): 3}
+('posh', 'silver') : {('striped', 'lavender'): 5, ('dotted', 'maroon'): 1}
+('dim', 'coral') : {('wavy', 'bronze'): 1, ('striped', 'gray'): 5, ('light', 'indigo'): 2, ('dim', 'orange'): 2}
+('bright', 'green') : {('drab', 'plum'): 5}
+('striped', 'teal') : {('light', 'fuchsia'): 1, ('vibrant', 'aqua'): 5, ('mirrored', 'white'): 3}
+('dim', 'crimson') : {('posh', 'gray'): 5}
+('drab', 'salmon') : {('bright', 'olive'): 3, ('dim', 'tan'): 5}
+('muted', 'green') : {('dark', 'beige'): 2, ('posh', 'coral'): 4}
+('light', 'tan') : {('wavy', 'white'): 5, ('dim', 'indigo'): 3, ('bright', 'green'): 3, ('clear', 'lavender'): 5}
+('posh', 'teal') : {('pale', 'salmon'): 4}
+('muted', 'cyan') : {('posh', 'yellow'): 4}
+('bright', 'turquoise') : {('posh', 'indigo'): 3, ('mirrored', 'salmon'): 2, ('dim', 'magenta'): 2}
+('vibrant', 'salmon') : {('light', 'tomato'): 5}
+('dark', 'violet') : {('light', 'bronze'): 3, ('dark', 'gold'): 5, ('striped', 'magenta'): 1, ('faded', 'lavender'): 4}
+('faded', 'maroon') : {('plaid', 'teal'): 5, ('light', 'turquoise'): 5, ('posh', 'white'): 5, ('drab', 'orange'): 4}
+('dotted', 'magenta') : {('shiny', 'chartreuse'): 4, ('drab', 'turquoise'): 5, ('bright', 'tomato'): 4, ('striped', 'maroon'): 2}
+('dotted', 'beige') : {('clear', 'white'): 5}
+('bright', 'magenta') : {}
+('dull', 'red') : {('muted', 'lavender'): 2}
+('drab', 'green') : {('dotted', 'cyan'): 2, ('striped', 'white'): 4, ('muted', 'magenta'): 3}
+('posh', 'brown') : {('muted', 'lavender'): 5, ('posh', 'red'): 2, ('drab', 'magenta'): 5}
+('faded', 'tan') : {('bright', 'purple'): 3, ('plaid', 'tomato'): 5, ('dull', 'teal'): 3}
+('faded', 'brown') : {('light', 'silver'): 2, ('mirrored', 'tan'): 5, ('clear', 'tan'): 2, ('drab', 'gold'): 2}
+('striped', 'black') : {('vibrant', 'yellow'): 3, ('dull', 'blue'): 3, ('dull', 'aqua'): 1, ('dull', 'teal'): 5}
+('faded', 'white') : {('muted', 'maroon'): 1, ('dark', 'gray'): 1, ('dark', 'white'): 5}
+('drab', 'aqua') : {('muted', 'white'): 3, ('dark', 'cyan'): 4, ('pale', 'tomato'): 5}
+('dull', 'teal') : {('plaid', 'red'): 2, ('mirrored', 'teal'): 5}
+('vibrant', 'plum') : {('dim', 'salmon'): 2, ('light', 'purple'): 3, ('muted', 'gray'): 2}
+('plaid', 'crimson') : {('shiny', 'blue'): 5, ('dull', 'bronze'): 1}
+('wavy', 'violet') : {('dotted', 'tomato'): 3, ('striped', 'brown'): 3}
+('clear', 'cyan') : {('drab', 'crimson'): 1, ('shiny', 'lime'): 2}
+('shiny', 'green') : {('muted', 'gray'): 5}
+('posh', 'purple') : {('vibrant', 'white'): 2}
+('plaid', 'lime') : {('clear', 'crimson'): 2, ('bright', 'magenta'): 3, ('shiny', 'silver'): 5, ('posh', 'blue'): 1}
+('dotted', 'violet') : {('dark', 'teal'): 1, ('faded', 'crimson'): 5}
+('pale', 'maroon') : {('mirrored', 'lime'): 5, ('clear', 'olive'): 5, ('shiny', 'orange'): 5, ('mirrored', 'fuchsia'): 4}
+('wavy', 'indigo') : {('plaid', 'lime'): 5, ('plaid', 'fuchsia'): 5, ('faded', 'chartreuse'): 2, ('dotted', 'tomato'): 4}
+('faded', 'silver') : {('striped', 'lavender'): 5, ('muted', 'lavender'): 4, ('plaid', 'brown'): 5}
+('drab', 'violet') : {('posh', 'white'): 1}
+('bright', 'white') : {('light', 'cyan'): 3, ('dark', 'indigo'): 1, ('pale', 'turquoise'): 2, ('pale', 'brown'): 1}
+('faded', 'olive') : {('clear', 'lime'): 2, ('muted', 'chartreuse'): 4}
+('muted', 'violet') : {('clear', 'lavender'): 1, ('dark', 'green'): 1, ('dark', 'cyan'): 3}
+('shiny', 'gray') : {('dull', 'tan'): 2, ('shiny', 'olive'): 1}
+('plaid', 'blue') : {('dark', 'aqua'): 3, ('muted', 'silver'): 4, ('pale', 'beige'): 5, ('drab', 'chartreuse'): 1}
+('posh', 'fuchsia') : {('posh', 'red'): 5, ('muted', 'gray'): 2}
+('faded', 'blue') : {('plaid', 'fuchsia'): 1, ('mirrored', 'turquoise'): 1, ('plaid', 'indigo'): 2, ('dark', 'aqua'): 1}
+('bright', 'brown') : {('drab', 'violet'): 4, ('shiny', 'lime'): 5, ('bright', 'beige'): 2}
+('mirrored', 'teal') : {('dark', 'gray'): 5}
+('bright', 'violet') : {('dotted', 'crimson'): 2, ('striped', 'coral'): 3, ('shiny', 'maroon'): 5, ('dull', 'lavender'): 3}
+('striped', 'plum') : {('dim', 'orange'): 2, ('clear', 'blue'): 4, ('shiny', 'violet'): 3}
+('plaid', 'green') : {('bright', 'teal'): 2, ('striped', 'lime'): 5}
+('muted', 'fuchsia') : {('clear', 'gold'): 4, ('vibrant', 'plum'): 2, ('bright', 'black'): 5}
+('bright', 'purple') : {('vibrant', 'crimson'): 3, ('dotted', 'maroon'): 1, ('dark', 'gold'): 4}
+('faded', 'cyan') : {('dim', 'teal'): 4}
+('wavy', 'fuchsia') : {('dull', 'yellow'): 5, ('light', 'yellow'): 2, ('bright', 'black'): 5}
+('wavy', 'salmon') : {('shiny', 'black'): 1, ('bright', 'teal'): 3, ('clear', 'yellow'): 5, ('dull', 'maroon'): 1}
+('dark', 'fuchsia') : {('muted', 'violet'): 1, ('light', 'cyan'): 3}
+('clear', 'salmon') : {('light', 'beige'): 4, ('vibrant', 'green'): 4, ('pale', 'yellow'): 3, ('muted', 'turquoise'): 1}
+('pale', 'purple') : {('bright', 'blue'): 1, ('pale', 'bronze'): 5}
+('posh', 'salmon') : {('faded', 'cyan'): 3, ('posh', 'maroon'): 4, ('plaid', 'green'): 1, ('shiny', 'silver'): 2}
+('bright', 'blue') : {('vibrant', 'green'): 3, ('drab', 'gray'): 2}
+('shiny', 'brown') : {}
+('dark', 'gold') : {('vibrant', 'aqua'): 5, ('posh', 'yellow'): 2}
+('mirrored', 'violet') : {('pale', 'silver'): 2, ('posh', 'fuchsia'): 1}
+('bright', 'fuchsia') : {('muted', 'brown'): 3, ('plaid', 'purple'): 3, ('faded', 'coral'): 2, ('mirrored', 'turquoise'): 3}
+('dim', 'beige') : {('dull', 'lime'): 2, ('dim', 'gold'): 3, ('plaid', 'fuchsia'): 3, ('posh', 'yellow'): 1}
+('shiny', 'white') : {('pale', 'fuchsia'): 1, ('shiny', 'beige'): 3, ('posh', 'aqua'): 3, ('clear', 'tan'): 5}
+('posh', 'red') : {('bright', 'magenta'): 3, ('dark', 'aqua'): 2, ('dark', 'cyan'): 4}
+('vibrant', 'fuchsia') : {('striped', 'indigo'): 3}
+('faded', 'tomato') : {('wavy', 'olive'): 3, ('shiny', 'brown'): 5, ('shiny', 'tan'): 5}
+('dull', 'purple') : {('plaid', 'teal'): 4, ('dull', 'indigo'): 4, ('dull', 'bronze'): 3, ('faded', 'tan'): 4}
+('shiny', 'magenta') : {('pale', 'tomato'): 4, ('shiny', 'brown'): 4}
+('wavy', 'tan') : {}
+('dull', 'salmon') : {('faded', 'crimson'): 3, ('shiny', 'fuchsia'): 5, ('dotted', 'silver'): 4}
+('pale', 'magenta') : {('faded', 'chartreuse'): 2}
+('vibrant', 'purple') : {('muted', 'orange'): 3, ('dotted', 'brown'): 5}
+('shiny', 'turquoise') : {('dotted', 'turquoise'): 4, ('dotted', 'purple'): 1, ('dim', 'black'): 4}
+('shiny', 'black') : {('clear', 'brown'): 2, ('vibrant', 'yellow'): 4, ('vibrant', 'aqua'): 1, ('mirrored', 'teal'): 5}
+('shiny', 'cyan') : {('dotted', 'coral'): 3}
+('dim', 'magenta') : {('bright', 'purple'): 3, ('wavy', 'white'): 2, ('shiny', 'fuchsia'): 2, ('shiny', 'yellow'): 2}
+('pale', 'beige') : {('dim', 'orange'): 3, ('wavy', 'purple'): 5}
+('wavy', 'bronze') : {('posh', 'yellow'): 5, ('pale', 'green'): 1, ('dark', 'cyan'): 5}
+('dull', 'blue') : {('wavy', 'tan'): 4}
+('striped', 'lime') : {('striped', 'crimson'): 5, ('bright', 'plum'): 1, ('plaid', 'yellow'): 5}
+('faded', 'magenta') : {('plaid', 'green'): 1, ('vibrant', 'silver'): 2, ('dim', 'turquoise'): 1}
+('muted', 'white') : {('bright', 'lime'): 5, ('light', 'fuchsia'): 4, ('light', 'violet'): 4, ('dark', 'aqua'): 4}
+('pale', 'fuchsia') : {('striped', 'tomato'): 1, ('drab', 'crimson'): 1, ('shiny', 'yellow'): 4}
+('posh', 'cyan') : {('dark', 'maroon'): 5}
+('dim', 'indigo') : {('dark', 'gold'): 3, ('bright', 'maroon'): 5}
+('faded', 'fuchsia') : {('plaid', 'tomato'): 4, ('mirrored', 'red'): 2}
+('shiny', 'red') : {('dull', 'olive'): 5, ('posh', 'tan'): 1, ('bright', 'green'): 4}
+('posh', 'maroon') : {('clear', 'blue'): 4, ('muted', 'chartreuse'): 5}
+('shiny', 'indigo') : {('wavy', 'orange'): 4}
+('dim', 'violet') : {('dotted', 'chartreuse'): 1, ('mirrored', 'lime'): 2, ('drab', 'chartreuse'): 1}
+('dim', 'lime') : {('posh', 'fuchsia'): 4, ('dull', 'blue'): 5, ('dull', 'silver'): 2, ('bright', 'lime'): 2}
+('muted', 'blue') : {('mirrored', 'lime'): 5}
+('dotted', 'fuchsia') : {('wavy', 'magenta'): 2}
+('bright', 'beige') : {('mirrored', 'maroon'): 1}
+('light', 'bronze') : {('posh', 'maroon'): 1, ('dotted', 'maroon'): 1, ('clear', 'silver'): 3}
+('posh', 'olive') : {('wavy', 'orange'): 2}
+('shiny', 'salmon') : {('light', 'teal'): 2, ('dark', 'violet'): 5}
+('plaid', 'tomato') : {('shiny', 'tan'): 5, ('drab', 'white'): 5}
+('striped', 'blue') : {('dark', 'cyan'): 3, ('pale', 'magenta'): 2, ('striped', 'indigo'): 3}
+('bright', 'lime') : {('dark', 'cyan'): 4}
+('vibrant', 'crimson') : {}
+('mirrored', 'salmon') : {('pale', 'gray'): 1, ('dark', 'plum'): 5}
+('dim', 'brown') : {('faded', 'fuchsia'): 4, ('dull', 'indigo'): 4}
+('clear', 'aqua') : {('mirrored', 'black'): 1, ('light', 'bronze'): 1, ('mirrored', 'maroon'): 2, ('mirrored', 'white'): 4}
+('clear', 'red') : {('bright', 'lavender'): 1}
+('dark', 'maroon') : {('light', 'chartreuse'): 1}
+('bright', 'silver') : {('wavy', 'tan'): 1, ('plaid', 'black'): 3, ('dark', 'gray'): 2}
+('faded', 'lime') : {('pale', 'silver'): 1, ('drab', 'teal'): 3}
+('plaid', 'lavender') : {('plaid', 'fuchsia'): 1}
+('faded', 'yellow') : {('dull', 'blue'): 4}
+('dark', 'blue') : {('dotted', 'red'): 1, ('bright', 'indigo'): 1, ('posh', 'tan'): 2}
+('light', 'aqua') : {('shiny', 'olive'): 3, ('dotted', 'brown'): 2, ('dull', 'green'): 1}
+('striped', 'gray') : {('faded', 'crimson'): 5, ('clear', 'white'): 4}
+('dark', 'chartreuse') : {('faded', 'lime'): 5}
+('plaid', 'chartreuse') : {('shiny', 'teal'): 3}
+('wavy', 'gray') : {('plaid', 'lime'): 5, ('wavy', 'olive'): 5, ('dim', 'orange'): 5}
+('dull', 'yellow') : {('faded', 'chartreuse'): 5, ('clear', 'crimson'): 2, ('faded', 'fuchsia'): 4}
+('muted', 'magenta') : {('mirrored', 'teal'): 4, ('drab', 'silver'): 3, ('drab', 'lavender'): 3, ('mirrored', 'orange'): 2}
+('pale', 'turquoise') : {('bright', 'lavender'): 3, ('shiny', 'tan'): 1, ('posh', 'teal'): 4, ('posh', 'cyan'): 2}
+('light', 'turquoise') : {('plaid', 'gold'): 1}
+('pale', 'brown') : {('muted', 'orange'): 4}
+('posh', 'chartreuse') : {('plaid', 'lime'): 1, ('shiny', 'gray'): 4, ('pale', 'bronze'): 3, ('vibrant', 'bronze'): 3}
+('posh', 'gray') : {('dim', 'salmon'): 3}
+('wavy', 'tomato') : {('vibrant', 'salmon'): 3, ('vibrant', 'yellow'): 5, ('vibrant', 'green'): 2, ('striped', 'brown'): 3}
+('dotted', 'indigo') : {('shiny', 'fuchsia'): 5, ('posh', 'lime'): 1, ('muted', 'beige'): 1}
+('pale', 'lime') : {('wavy', 'fuchsia'): 4}
+('dull', 'lime') : {('light', 'bronze'): 2, ('light', 'beige'): 3, ('wavy', 'tomato'): 4}
+('shiny', 'olive') : {('dull', 'aqua'): 5, ('muted', 'gray'): 5, ('posh', 'olive'): 5}
+('muted', 'teal') : {('dull', 'teal'): 3, ('bright', 'magenta'): 5}
+('dull', 'white') : {('striped', 'yellow'): 5, ('dim', 'aqua'): 1}
+('shiny', 'silver') : {('shiny', 'olive'): 4, ('wavy', 'orange'): 4, ('mirrored', 'red'): 2}
+('dim', 'turquoise') : {('drab', 'gold'): 4}
+('clear', 'brown') : {}
+('mirrored', 'olive') : {('dim', 'aqua'): 4}
+('striped', 'purple') : {('wavy', 'tan'): 5}
+('faded', 'violet') : {('dull', 'tan'): 4}
+('faded', 'salmon') : {('striped', 'fuchsia'): 5, ('muted', 'lime'): 1}
+('mirrored', 'yellow') : {('dark', 'orange'): 2}
+('wavy', 'gold') : {('muted', 'salmon'): 2}
+('pale', 'tomato') : {('vibrant', 'crimson'): 1, ('light', 'black'): 5, ('dotted', 'brown'): 3}
+('clear', 'bronze') : {('mirrored', 'black'): 1, ('wavy', 'red'): 3, ('faded', 'white'): 4, ('vibrant', 'bronze'): 5}
+('mirrored', 'silver') : {('wavy', 'salmon'): 3, ('drab', 'brown'): 4, ('striped', 'green'): 1, ('mirrored', 'lime'): 4}
+('dull', 'bronze') : {('dim', 'orange'): 1, ('light', 'maroon'): 1, ('wavy', 'bronze'): 5, ('posh', 'blue'): 2}
+('posh', 'lime') : {('dark', 'bronze'): 2}
+('light', 'teal') : {('dotted', 'cyan'): 4, ('dark', 'crimson'): 4, ('striped', 'orange'): 4, ('pale', 'black'): 4}
+('dark', 'lime') : {('posh', 'red'): 2}
+('vibrant', 'yellow') : {('dull', 'indigo'): 4}
+('vibrant', 'green') : {('bright', 'silver'): 3, ('striped', 'fuchsia'): 1, ('dim', 'tan'): 5}
+('mirrored', 'lavender') : {('dull', 'maroon'): 1, ('bright', 'silver'): 1, ('drab', 'teal'): 4, ('posh', 'blue'): 2}
+('bright', 'salmon') : {('dark', 'aqua'): 1}
+('clear', 'green') : {('vibrant', 'blue'): 3, ('dotted', 'salmon'): 4, ('striped', 'violet'): 5}
+('clear', 'lavender') : {('faded', 'silver'): 2, ('dim', 'tan'): 5, ('drab', 'white'): 4}
+('dim', 'chartreuse') : {('dark', 'gray'): 4}
+('posh', 'blue') : {('clear', 'silver'): 1, ('clear', 'crimson'): 5, ('light', 'beige'): 2}
+('dim', 'maroon') : {('dotted', 'fuchsia'): 5}
+('muted', 'crimson') : {('dark', 'cyan'): 1}
+('drab', 'cyan') : {('wavy', 'brown'): 4}
+('faded', 'lavender') : {('posh', 'coral'): 3, ('dotted', 'violet'): 2, ('pale', 'gray'): 3, ('plaid', 'beige'): 4}
+('dim', 'aqua') : {('dim', 'tan'): 5, ('posh', 'olive'): 3}
+('posh', 'magenta') : {('bright', 'orange'): 3, ('bright', 'salmon'): 4, ('vibrant', 'beige'): 1}
+('plaid', 'purple') : {('mirrored', 'gray'): 2, ('mirrored', 'tan'): 5}
+('muted', 'tomato') : {('dotted', 'tomato'): 1, ('bright', 'magenta'): 4, ('striped', 'turquoise'): 1}
+('dull', 'black') : {('wavy', 'coral'): 5, ('wavy', 'beige'): 4, ('drab', 'lavender'): 1, ('dark', 'beige'): 4}
+('mirrored', 'maroon') : {('shiny', 'teal'): 4, ('light', 'blue'): 3, ('light', 'aqua'): 1, ('faded', 'tan'): 3}
+('posh', 'aqua') : {('dotted', 'orange'): 3, ('wavy', 'crimson'): 4, ('pale', 'magenta'): 5, ('posh', 'fuchsia'): 5}
+('muted', 'lavender') : {('faded', 'green'): 4, ('dark', 'aqua'): 1, ('posh', 'maroon'): 4, ('dark', 'white'): 2}
+('posh', 'tomato') : {('posh', 'black'): 2}
+('dull', 'gold') : {('faded', 'turquoise'): 1, ('drab', 'brown'): 4, ('shiny', 'turquoise'): 4}
+('plaid', 'violet') : {('bright', 'plum'): 3, ('clear', 'olive'): 4, ('drab', 'bronze'): 4}
+('pale', 'silver') : {('wavy', 'olive'): 5, ('dull', 'indigo'): 5, ('light', 'plum'): 1, ('dark', 'gray'): 4}
+('dull', 'brown') : {('dim', 'orange'): 1}
+('shiny', 'beige') : {('faded', 'purple'): 5}
+('striped', 'cyan') : {('muted', 'black'): 1, ('dull', 'aqua'): 4}
+('dotted', 'green') : {('wavy', 'white'): 4, ('shiny', 'violet'): 2, ('muted', 'chartreuse'): 4}
+('dotted', 'chartreuse') : {('dull', 'bronze'): 5}
+('plaid', 'aqua') : {('shiny', 'indigo'): 2, ('muted', 'lavender'): 5, ('light', 'blue'): 3, ('vibrant', 'salmon'): 4}
+('mirrored', 'beige') : {('light', 'white'): 2, ('wavy', 'coral'): 1}
+('light', 'orange') : {('drab', 'salmon'): 3, ('clear', 'lavender'): 3, ('dark', 'beige'): 4, ('clear', 'purple'): 1}
+('dark', 'tan') : {('posh', 'olive'): 1}
+('muted', 'lime') : {('faded', 'chartreuse'): 3, ('muted', 'silver'): 4, ('vibrant', 'salmon'): 3, ('mirrored', 'blue'): 1}
+('posh', 'gold') : {('vibrant', 'magenta'): 5}
+('faded', 'beige') : {('faded', 'black'): 5, ('clear', 'coral'): 4, ('bright', 'olive'): 4, ('faded', 'lime'): 1}
+('vibrant', 'turquoise') : {('clear', 'cyan'): 3, ('dotted', 'fuchsia'): 1}
+('faded', 'bronze') : {('posh', 'teal'): 4, ('plaid', 'tomato'): 3, ('dark', 'bronze'): 4}
+('shiny', 'blue') : {('drab', 'indigo'): 3, ('dark', 'lime'): 1}
+('plaid', 'yellow') : {('plaid', 'lime'): 1}
+('shiny', 'aqua') : {('vibrant', 'tomato'): 1, ('dark', 'aqua'): 4, ('vibrant', 'cyan'): 5, ('striped', 'coral'): 4}
+('mirrored', 'indigo') : {('vibrant', 'turquoise'): 5}
+('wavy', 'cyan') : {('light', 'yellow'): 1, ('faded', 'fuchsia'): 4, ('clear', 'silver'): 2, ('vibrant', 'fuchsia'): 3}
+('dull', 'gray') : {('mirrored', 'turquoise'): 2, ('posh', 'yellow'): 2}
+('dim', 'yellow') : {('light', 'silver'): 4}
+('striped', 'crimson') : {('dim', 'salmon'): 3}
+('pale', 'coral') : {('vibrant', 'violet'): 4, ('posh', 'teal'): 4, ('drab', 'aqua'): 3}
+('faded', 'aqua') : {('bright', 'magenta'): 3, ('muted', 'aqua'): 4, ('light', 'salmon'): 3, ('light', 'black'): 3}
+('drab', 'orange') : {('drab', 'purple'): 2, ('light', 'black'): 5, ('dull', 'blue'): 5, ('bright', 'purple'): 1}
+('drab', 'bronze') : {('clear', 'violet'): 3, ('drab', 'crimson'): 3, ('dotted', 'yellow'): 3, ('muted', 'salmon'): 5}
+('drab', 'blue') : {('faded', 'violet'): 3, ('bright', 'lavender'): 4, ('vibrant', 'cyan'): 2}
+('pale', 'olive') : {('shiny', 'yellow'): 4, ('dull', 'yellow'): 1, ('striped', 'tomato'): 2}
+('light', 'salmon') : {('shiny', 'gold'): 2, ('light', 'silver'): 2, ('wavy', 'magenta'): 4}
+('wavy', 'brown') : {('dim', 'indigo'): 4, ('pale', 'olive'): 3, ('mirrored', 'orange'): 3}
+('vibrant', 'beige') : {('light', 'lavender'): 5, ('wavy', 'bronze'): 3, ('plaid', 'yellow'): 1, ('dark', 'aqua'): 2}
+('clear', 'tan') : {('posh', 'fuchsia'): 3, ('pale', 'fuchsia'): 1}
+('dotted', 'turquoise') : {('light', 'maroon'): 3}
+('dull', 'magenta') : {('dark', 'tomato'): 2}
+('dull', 'chartreuse') : {('light', 'chartreuse'): 5, ('dotted', 'chartreuse'): 2}
+('bright', 'red') : {('dotted', 'brown'): 1, ('posh', 'yellow'): 1, ('light', 'white'): 5, ('shiny', 'maroon'): 4}
+('bright', 'bronze') : {('bright', 'salmon'): 4, ('plaid', 'bronze'): 4, ('dim', 'chartreuse'): 2}
+('vibrant', 'gold') : {('faded', 'purple'): 2, ('mirrored', 'maroon'): 3, ('dull', 'gray'): 3}
+('vibrant', 'cyan') : {('faded', 'olive'): 2, ('dull', 'silver'): 4, ('mirrored', 'lime'): 3, ('faded', 'red'): 4}
+('mirrored', 'plum') : {('dark', 'orange'): 3, ('plaid', 'lavender'): 5, ('dim', 'red'): 5}
+('clear', 'white') : {('striped', 'beige'): 3}
+('drab', 'fuchsia') : {('striped', 'magenta'): 4, ('vibrant', 'violet'): 2, ('pale', 'aqua'): 4}
+('dark', 'purple') : {('striped', 'violet'): 5}
+('mirrored', 'tomato') : {('drab', 'olive'): 5}
+('dull', 'olive') : {('wavy', 'purple'): 4}
+('wavy', 'maroon') : {('pale', 'gold'): 4}
+('vibrant', 'blue') : {('faded', 'lime'): 1, ('light', 'plum'): 4}
+('clear', 'teal') : {('dark', 'green'): 4, ('clear', 'brown'): 5}
+('clear', 'beige') : {('shiny', 'cyan'): 4, ('striped', 'salmon'): 3}
+('drab', 'indigo') : {('drab', 'tan'): 5, ('shiny', 'black'): 4, ('striped', 'brown'): 4}
+('muted', 'bronze') : {('dark', 'chartreuse'): 4, ('pale', 'crimson'): 5, ('vibrant', 'gold'): 4}
+('muted', 'olive') : {('wavy', 'olive'): 3, ('dark', 'bronze'): 5, ('bright', 'aqua'): 4, ('dotted', 'yellow'): 1}
+('dull', 'beige') : {('dull', 'purple'): 1}
+('dotted', 'yellow') : {('dim', 'plum'): 3, ('plaid', 'lavender'): 2}
+('wavy', 'lavender') : {('vibrant', 'violet'): 1, ('posh', 'blue'): 4, ('posh', 'plum'): 1}
+('dim', 'fuchsia') : {('pale', 'yellow'): 5, ('faded', 'plum'): 4, ('bright', 'lime'): 5}
+('plaid', 'gray') : {('dark', 'violet'): 5, ('dotted', 'crimson'): 2, ('dull', 'fuchsia'): 4, ('drab', 'magenta'): 1}
+('vibrant', 'coral') : {('shiny', 'cyan'): 2, ('pale', 'magenta'): 4, ('striped', 'coral'): 5, ('pale', 'teal'): 3}
+('drab', 'yellow') : {('clear', 'orange'): 4, ('faded', 'fuchsia'): 5}
+('dark', 'red') : {('mirrored', 'maroon'): 5, ('clear', 'blue'): 3, ('striped', 'crimson'): 2, ('dotted', 'violet'): 2}
+('mirrored', 'cyan') : {('dotted', 'maroon'): 5, ('posh', 'turquoise'): 5, ('faded', 'gray'): 2}
+('muted', 'yellow') : {('light', 'cyan'): 1, ('dim', 'orange'): 2, ('dull', 'olive'): 5, ('light', 'green'): 5}
+('wavy', 'aqua') : {('muted', 'cyan'): 2, ('mirrored', 'green'): 4, ('muted', 'tomato'): 5}
+('vibrant', 'lavender') : {('dotted', 'gold'): 1, ('light', 'chartreuse'): 1, ('mirrored', 'gray'): 3}
+('bright', 'black') : {('striped', 'lavender'): 1, ('shiny', 'tan'): 2, ('bright', 'lime'): 4}
+('wavy', 'chartreuse') : {('mirrored', 'red'): 4}
+('dull', 'turquoise') : {('faded', 'red'): 5, ('light', 'brown'): 1, ('clear', 'magenta'): 1}
+('dull', 'silver') : {('dark', 'gray'): 4, ('faded', 'green'): 1}
+('pale', 'black') : {('plaid', 'indigo'): 1, ('light', 'tomato'): 3, ('drab', 'blue'): 4}
+('clear', 'tomato') : {('dim', 'tan'): 1, ('clear', 'lavender'): 1, ('striped', 'fuchsia'): 1, ('clear', 'orange'): 5}
+('dark', 'cyan') : {('shiny', 'brown'): 4}
+('pale', 'blue') : {('clear', 'green'): 1}
+('dotted', 'lavender') : {('dotted', 'maroon'): 3, ('wavy', 'salmon'): 5, ('pale', 'tomato'): 2, ('mirrored', 'blue'): 5}
+('pale', 'orange') : {('pale', 'silver'): 4, ('striped', 'lime'): 4}
+('drab', 'chartreuse') : {('dark', 'gold'): 2, ('clear', 'crimson'): 5, ('dull', 'green'): 3}
+('striped', 'violet') : {('plaid', 'lime'): 4}
+('muted', 'gold') : {}
+('mirrored', 'gray') : {('light', 'green'): 1, ('striped', 'beige'): 1}
+('bright', 'lavender') : {('clear', 'blue'): 2}
+('striped', 'gold') : {('muted', 'turquoise'): 3}
+('dim', 'white') : {('vibrant', 'lavender'): 1}
+('wavy', 'beige') : {('light', 'chartreuse'): 4, ('dark', 'lime'): 5}
+('dim', 'tomato') : {('wavy', 'aqua'): 2, ('faded', 'salmon'): 3}
+('light', 'blue') : {('wavy', 'purple'): 2, ('dull', 'olive'): 1}
+('drab', 'brown') : {('drab', 'magenta'): 5, ('muted', 'teal'): 2}
+('wavy', 'olive') : {('pale', 'green'): 3, ('muted', 'gray'): 5}
+('bright', 'chartreuse') : {('clear', 'yellow'): 1, ('dotted', 'olive'): 2, ('posh', 'olive'): 1}
+('posh', 'violet') : {('muted', 'tomato'): 5, ('light', 'aqua'): 5, ('pale', 'cyan'): 3, ('mirrored', 'chartreuse'): 2}
+('dotted', 'blue') : {('plaid', 'yellow'): 4, ('vibrant', 'bronze'): 3, ('dull', 'maroon'): 2, ('shiny', 'silver'): 3}
+('pale', 'white') : {('plaid', 'brown'): 3, ('mirrored', 'aqua'): 2, ('dim', 'turquoise'): 2}
+('dull', 'lavender') : {('light', 'blue'): 1, ('drab', 'tan'): 5, ('light', 'yellow'): 3}
+('pale', 'cyan') : {('pale', 'green'): 5, ('dull', 'tomato'): 5, ('vibrant', 'orange'): 4}
+('mirrored', 'tan') : {('mirrored', 'blue'): 1, ('wavy', 'purple'): 5}
+('plaid', 'maroon') : {('bright', 'orange'): 5, ('dull', 'fuchsia'): 1, ('dull', 'indigo'): 5, ('light', 'white'): 4}
+('drab', 'plum') : {('pale', 'silver'): 5, ('clear', 'yellow'): 1, ('dotted', 'fuchsia'): 5}
+('muted', 'aqua') : {('posh', 'blue'): 2, ('muted', 'chartreuse'): 3, ('drab', 'tan'): 1, ('dotted', 'brown'): 3}
+('striped', 'lavender') : {('posh', 'yellow'): 3, ('drab', 'white'): 5, ('muted', 'gold'): 1}
+('posh', 'bronze') : {('mirrored', 'lime'): 1, ('muted', 'cyan'): 2, ('muted', 'aqua'): 3}
+('dotted', 'brown') : {('dotted', 'orange'): 1, ('striped', 'blue'): 3, ('dotted', 'teal'): 3, ('wavy', 'magenta'): 4}
+('light', 'chartreuse') : {}
+('dotted', 'purple') : {('muted', 'lavender'): 3}
+('vibrant', 'violet') : {('light', 'violet'): 3}
+('dark', 'green') : {('mirrored', 'teal'): 3, ('bright', 'magenta'): 3, ('light', 'chartreuse'): 2}
+('faded', 'indigo') : {('faded', 'fuchsia'): 3, ('dim', 'magenta'): 4}
+('bright', 'cyan') : {('vibrant', 'olive'): 4, ('faded', 'olive'): 4, ('posh', 'teal'): 1}
+('drab', 'white') : {}
+('clear', 'magenta') : {('dotted', 'maroon'): 1, ('wavy', 'olive'): 2, ('drab', 'white'): 5}
+('light', 'yellow') : {('shiny', 'brown'): 4, ('light', 'fuchsia'): 4, ('mirrored', 'turquoise'): 1, ('drab', 'teal'): 2}
+('dark', 'beige') : {('dim', 'crimson'): 4, ('mirrored', 'turquoise'): 5, ('posh', 'yellow'): 3, ('dull', 'chartreuse'): 1}
+('dark', 'teal') : {('mirrored', 'tan'): 5, ('vibrant', 'tomato'): 5, ('bright', 'violet'): 2, ('striped', 'silver'): 2}
+('pale', 'plum') : {('drab', 'white'): 2}
+('light', 'red') : {('striped', 'blue'): 2, ('bright', 'violet'): 2, ('clear', 'orange'): 4}
+('plaid', 'brown') : {('light', 'maroon'): 4, ('dull', 'bronze'): 5, ('plaid', 'black'): 3}
+('plaid', 'bronze') : {('muted', 'salmon'): 4, ('light', 'violet'): 1, ('plaid', 'black'): 4}
+('bright', 'orange') : {('light', 'green'): 5, ('wavy', 'plum'): 2, ('faded', 'coral'): 5}
+('plaid', 'black') : {('dark', 'green'): 5, ('dull', 'indigo'): 3, ('dim', 'tan'): 3}
+('shiny', 'lime') : {('bright', 'lime'): 5}
+('shiny', 'fuchsia') : {('dotted', 'tan'): 2, ('drab', 'white'): 3}
+('bright', 'gold') : {('drab', 'magenta'): 1, ('pale', 'salmon'): 4}
+('shiny', 'gold') : {('drab', 'white'): 1, ('wavy', 'purple'): 2, ('muted', 'gray'): 2, ('clear', 'crimson'): 5}
+('plaid', 'beige') : {('dotted', 'yellow'): 3}
+('vibrant', 'silver') : {('muted', 'gold'): 2, ('dim', 'teal'): 5, ('mirrored', 'white'): 4, ('clear', 'blue'): 2}
+('dotted', 'black') : {('wavy', 'crimson'): 1, ('vibrant', 'purple'): 5}
+('mirrored', 'brown') : {('drab', 'aqua'): 4, ('dark', 'teal'): 4, ('striped', 'plum'): 5}
+('dotted', 'red') : {('bright', 'lime'): 5, ('vibrant', 'magenta'): 5, ('striped', 'turquoise'): 1}
+('bright', 'tan') : {('dull', 'yellow'): 2, ('posh', 'tomato'): 2}
+('striped', 'aqua') : {('clear', 'blue'): 3, ('dark', 'maroon'): 1}
+('dotted', 'coral') : {('vibrant', 'silver'): 1, ('dark', 'green'): 3, ('posh', 'gray'): 4, ('light', 'red'): 2}
+('mirrored', 'lime') : {('mirrored', 'white'): 3, ('plaid', 'tomato'): 1, ('shiny', 'yellow'): 2, ('vibrant', 'black'): 2}
+('dark', 'gray') : {('faded', 'green'): 3, ('vibrant', 'crimson'): 3}
+('wavy', 'lime') : {('wavy', 'salmon'): 5, ('faded', 'tomato'): 2}
+('dotted', 'lime') : {('drab', 'brown'): 5, ('faded', 'salmon'): 1, ('wavy', 'violet'): 2, ('posh', 'olive'): 4}
+('light', 'black') : {('striped', 'indigo'): 5}
+('shiny', 'yellow') : {('wavy', 'tan'): 5, ('drab', 'white'): 5, ('posh', 'olive'): 4}
+('bright', 'yellow') : {('posh', 'red'): 3, ('plaid', 'black'): 2}
+('dull', 'tan') : {('clear', 'brown'): 4, ('wavy', 'tan'): 3}
+('shiny', 'tomato') : {('shiny', 'orange'): 2, ('light', 'lavender'): 4, ('plaid', 'lavender'): 1}
+('vibrant', 'aqua') : {('pale', 'green'): 5, ('drab', 'crimson'): 3, ('shiny', 'brown'): 2}
+('striped', 'salmon') : {('posh', 'orange'): 2}
+('light', 'silver') : {('shiny', 'yellow'): 1, ('mirrored', 'turquoise'): 4, ('bright', 'coral'): 1, ('posh', 'maroon'): 2}
+('striped', 'fuchsia') : {('drab', 'white'): 3, ('faded', 'chartreuse'): 3, ('vibrant', 'black'): 4, ('wavy', 'tan'): 3}
+('bright', 'tomato') : {('light', 'beige'): 3, ('drab', 'teal'): 4}
+('shiny', 'plum') : {('clear', 'bronze'): 4}
+('vibrant', 'red') : {('bright', 'magenta'): 3}
+('mirrored', 'orange') : {('mirrored', 'white'): 2, ('dotted', 'brown'): 3, ('bright', 'silver'): 3, ('pale', 'teal'): 4}
+('dull', 'indigo') : {}
+('wavy', 'yellow') : {('wavy', 'white'): 4}
+('muted', 'turquoise') : {('posh', 'red'): 2, ('dark', 'green'): 3, ('mirrored', 'white'): 4}
+('striped', 'indigo') : {('dark', 'cyan'): 3, ('clear', 'blue'): 5, ('faded', 'chartreuse'): 2}
+('mirrored', 'green') : {('mirrored', 'chartreuse'): 4, ('striped', 'red'): 3}
+('plaid', 'white') : {('vibrant', 'salmon'): 1, ('dark', 'yellow'): 1, ('vibrant', 'violet'): 2}
+('dark', 'plum') : {('muted', 'coral'): 4, ('mirrored', 'blue'): 4, ('vibrant', 'aqua'): 1}
+('drab', 'turquoise') : {('dotted', 'purple'): 1, ('light', 'plum'): 1}
+('light', 'maroon') : {('wavy', 'purple'): 2, ('dim', 'orange'): 2, ('mirrored', 'white'): 1, ('striped', 'tomato'): 3}
+('shiny', 'maroon') : {('bright', 'blue'): 2}
+('drab', 'crimson') : {('bright', 'magenta'): 1, ('drab', 'white'): 3}
+('dark', 'aqua') : {('shiny', 'brown'): 3, ('dark', 'gray'): 5}
+('posh', 'turquoise') : {('shiny', 'gray'): 2}
+('muted', 'indigo') : {('wavy', 'purple'): 4}
+('dotted', 'salmon') : {('vibrant', 'violet'): 1, ('mirrored', 'lavender'): 1}
+('plaid', 'indigo') : {('wavy', 'indigo'): 2, ('dark', 'white'): 2, ('wavy', 'tan'): 3, ('vibrant', 'crimson'): 3}
+('muted', 'brown') : {('posh', 'yellow'): 3, ('shiny', 'lime'): 4, ('striped', 'lavender'): 5}
+('vibrant', 'gray') : {('mirrored', 'silver'): 1, ('light', 'coral'): 2, ('faded', 'gold'): 1, ('dull', 'fuchsia'): 1}
+('drab', 'tomato') : {('wavy', 'tan'): 1, ('shiny', 'tan'): 1, ('clear', 'crimson'): 1}
+('wavy', 'white') : {('muted', 'blue'): 3, ('wavy', 'plum'): 2, ('dim', 'silver'): 4, ('mirrored', 'tan'): 3}
+('shiny', 'lavender') : {('posh', 'coral'): 1, ('dotted', 'crimson'): 2, ('plaid', 'red'): 2, ('striped', 'silver'): 1}
+('dull', 'fuchsia') : {('light', 'bronze'): 4, ('clear', 'gray'): 3, ('bright', 'coral'): 1}
+('drab', 'teal') : {('muted', 'chartreuse'): 5, ('dull', 'silver'): 4, ('vibrant', 'black'): 5, ('shiny', 'olive'): 3}
+('clear', 'crimson') : {('clear', 'brown'): 4, ('drab', 'crimson'): 3, ('clear', 'blue'): 4, ('vibrant', 'black'): 1}
+('posh', 'beige') : {('plaid', 'teal'): 5}
+('clear', 'silver') : {('plaid', 'tomato'): 3, ('bright', 'silver'): 3, ('mirrored', 'white'): 1}
+('mirrored', 'red') : {('striped', 'indigo'): 2, ('drab', 'teal'): 2}
+('posh', 'indigo') : {('faded', 'red'): 3}
+('dark', 'silver') : {('wavy', 'tan'): 5, ('dotted', 'maroon'): 2}
+('drab', 'red') : {('dotted', 'chartreuse'): 2, ('mirrored', 'tan'): 3, ('pale', 'plum'): 5}
+('plaid', 'turquoise') : {('dim', 'silver'): 4, ('bright', 'orange'): 1}
+('dim', 'blue') : {('muted', 'lavender'): 1, ('wavy', 'plum'): 1}
+('plaid', 'coral') : {('shiny', 'coral'): 2}
+('striped', 'silver') : {('muted', 'brown'): 2}
+('vibrant', 'tomato') : {('muted', 'black'): 1}
+('dark', 'turquoise') : {('light', 'silver'): 2}
+('vibrant', 'lime') : {('light', 'beige'): 2, ('bright', 'green'): 3, ('faded', 'purple'): 5}
+('mirrored', 'chartreuse') : {('wavy', 'tan'): 2, ('dim', 'tan'): 5}
+('light', 'plum') : {('faded', 'green'): 5}
+('dim', 'tan') : {('faded', 'chartreuse'): 1, ('clear', 'brown'): 2, ('faded', 'green'): 1, ('muted', 'gold'): 2}
+('shiny', 'bronze') : {('drab', 'aqua'): 5}
+('dotted', 'tomato') : {('wavy', 'magenta'): 4}
+('mirrored', 'crimson') : {('dim', 'bronze'): 1}
+('light', 'crimson') : {('posh', 'red'): 3}
+('dull', 'coral') : {('striped', 'crimson'): 3, ('mirrored', 'salmon'): 4}
+('drab', 'lavender') : {('dim', 'salmon'): 3}
+('dotted', 'crimson') : {('dark', 'cyan'): 3, ('posh', 'blue'): 4, ('light', 'fuchsia'): 2}
+('dotted', 'tan') : {('posh', 'fuchsia'): 2, ('dim', 'black'): 4}
+('dark', 'coral') : {('mirrored', 'green'): 2, ('shiny', 'white'): 4, ('shiny', 'tomato'): 2}
+('striped', 'orange') : {('muted', 'violet'): 1, ('pale', 'cyan'): 5, ('drab', 'tomato'): 2, ('faded', 'violet'): 3}
+('pale', 'aqua') : {('shiny', 'fuchsia'): 3, ('shiny', 'violet'): 4}
+('wavy', 'plum') : {('light', 'chartreuse'): 4, ('vibrant', 'tan'): 5, ('muted', 'lime'): 4}
+('mirrored', 'turquoise') : {('shiny', 'brown'): 4, ('drab', 'tan'): 4}
+('dark', 'magenta') : {('faded', 'violet'): 5, ('posh', 'lavender'): 2}
+('striped', 'bronze') : {('light', 'silver'): 3, ('mirrored', 'brown'): 3, ('posh', 'purple'): 3, ('drab', 'turquoise'): 4}
+('faded', 'red') : {('dark', 'cyan'): 2, ('striped', 'tan'): 2, ('mirrored', 'violet'): 4}
+('faded', 'turquoise') : {('striped', 'crimson'): 1}
+('clear', 'gold') : {('clear', 'crimson'): 3, ('faded', 'green'): 5, ('dim', 'tan'): 4}
+('clear', 'coral') : {('striped', 'salmon'): 3}
+('faded', 'gray') : {('light', 'salmon'): 4, ('clear', 'orange'): 5, ('dim', 'yellow'): 1, ('wavy', 'green'): 2}
+('posh', 'lavender') : {('clear', 'silver'): 2, ('wavy', 'indigo'): 1, ('faded', 'brown'): 4, ('light', 'white'): 2}
+('pale', 'red') : {('clear', 'orange'): 3}
+('dim', 'lavender') : {('posh', 'silver'): 1}
+('vibrant', 'orange') : {('pale', 'magenta'): 2}
+('pale', 'gray') : {('dark', 'aqua'): 2, ('mirrored', 'turquoise'): 2, ('striped', 'fuchsia'): 2, ('wavy', 'purple'): 5}
+('pale', 'teal') : {('striped', 'brown'): 2, ('shiny', 'brown'): 4}
+('muted', 'tan') : {('dotted', 'purple'): 3, ('clear', 'blue'): 5, ('bright', 'plum'): 5}
+('dotted', 'cyan') : {('mirrored', 'chartreuse'): 1, ('dotted', 'gray'): 2, ('pale', 'tomato'): 5, ('mirrored', 'lime'): 1}
+('dark', 'brown') : {('vibrant', 'orange'): 4, ('faded', 'olive'): 3, ('posh', 'blue'): 5}
+('dull', 'orange') : {('posh', 'coral'): 5, ('vibrant', 'green'): 5, ('dull', 'maroon'): 3, ('striped', 'tomato'): 1}
+('plaid', 'silver') : {('muted', 'turquoise'): 1, ('wavy', 'green'): 1}
+('dull', 'crimson') : {('faded', 'red'): 4, ('dotted', 'plum'): 1, ('plaid', 'orange'): 2, ('posh', 'yellow'): 1}
+('muted', 'orange') : {('pale', 'yellow'): 4, ('dark', 'maroon'): 1, ('mirrored', 'white'): 5}
+('wavy', 'black') : {('mirrored', 'blue'): 4, ('drab', 'chartreuse'): 4, ('dull', 'aqua'): 4}
+('light', 'magenta') : {('muted', 'coral'): 2, ('wavy', 'violet'): 3}
+('faded', 'crimson') : {('dim', 'orange'): 2, ('vibrant', 'crimson'): 3, ('clear', 'lime'): 4, ('wavy', 'olive'): 5}
+('light', 'fuchsia') : {('dull', 'green'): 2, ('dull', 'indigo'): 4}
+('mirrored', 'black') : {('wavy', 'magenta'): 1, ('light', 'bronze'): 3, ('dull', 'teal'): 3}
+('striped', 'tan') : {('vibrant', 'yellow'): 5, ('dull', 'silver'): 3, ('mirrored', 'teal'): 5}
+('dark', 'crimson') : {('mirrored', 'teal'): 1, ('muted', 'maroon'): 2, ('dull', 'green'): 5}
+('light', 'indigo') : {('dotted', 'purple'): 5}
+('light', 'brown') : {('dark', 'fuchsia'): 4, ('bright', 'olive'): 1}
+('wavy', 'purple') : {('vibrant', 'black'): 3, ('dull', 'teal'): 5, ('bright', 'magenta'): 1}
+('posh', 'white') : {('muted', 'purple'): 5, ('drab', 'silver'): 5}
+('faded', 'gold') : {('dull', 'teal'): 2, ('muted', 'orange'): 5, ('mirrored', 'lavender'): 3, ('clear', 'orange'): 2}
+('clear', 'maroon') : {('dim', 'crimson'): 2, ('dim', 'maroon'): 3, ('wavy', 'salmon'): 5, ('mirrored', 'black'): 5}
+('bright', 'maroon') : {('dark', 'bronze'): 5, ('pale', 'coral'): 4}
+('clear', 'turquoise') : {('muted', 'gold'): 1}
+('bright', 'coral') : {('striped', 'lavender'): 3, ('drab', 'tomato'): 4, ('bright', 'lime'): 1}
+('wavy', 'teal') : {('faded', 'tan'): 3}
+('mirrored', 'gold') : {('faded', 'violet'): 4}
+('dark', 'orange') : {('muted', 'purple'): 5, ('drab', 'turquoise'): 1, ('pale', 'beige'): 5}
+('dull', 'green') : {('faded', 'chartreuse'): 1}
+('posh', 'plum') : {('dull', 'turquoise'): 1}
+('plaid', 'red') : {('wavy', 'orange'): 4}
+('faded', 'green') : {('wavy', 'tan'): 2, ('muted', 'gold'): 2}
+('drab', 'maroon') : {('striped', 'fuchsia'): 5, ('light', 'indigo'): 5}
+('clear', 'blue') : {('bright', 'magenta'): 5, ('muted', 'gold'): 2, ('faded', 'chartreuse'): 1}
+('shiny', 'purple') : {('mirrored', 'lavender'): 3, ('light', 'crimson'): 3, ('light', 'turquoise'): 2, ('drab', 'aqua'): 1}
+('wavy', 'silver') : {('mirrored', 'tan'): 5, ('dotted', 'crimson'): 2, ('pale', 'magenta'): 3, ('vibrant', 'plum'): 5}
+('drab', 'gray') : {('mirrored', 'red'): 4, ('plaid', 'yellow'): 4, ('muted', 'silver'): 4, ('light', 'black'): 3}
+('striped', 'maroon') : {('dull', 'teal'): 5, ('bright', 'indigo'): 1, ('clear', 'gray'): 3}
+('striped', 'tomato') : {('clear', 'gold'): 2, ('plaid', 'red'): 4, ('vibrant', 'yellow'): 1, ('dark', 'aqua'): 2}
+('vibrant', 'brown') : {('vibrant', 'orange'): 4}
+('wavy', 'green') : {('striped', 'coral'): 5, ('clear', 'brown'): 5, ('drab', 'gold'): 4, ('faded', 'green'): 3}
+('dark', 'tomato') : {('wavy', 'gray'): 3, ('clear', 'yellow'): 4, ('light', 'fuchsia'): 4, ('drab', 'plum'): 1}
+('plaid', 'gold') : {('faded', 'red'): 3}
+('light', 'tomato') : {('striped', 'black'): 1}
+('clear', 'olive') : {('drab', 'lime'): 2}
+('dim', 'red') : {('light', 'yellow'): 4, ('vibrant', 'yellow'): 5, ('dark', 'green'): 3, ('vibrant', 'aqua'): 2}
+('vibrant', 'indigo') : {('vibrant', 'silver'): 1}
+('pale', 'crimson') : {('wavy', 'green'): 4, ('striped', 'fuchsia'): 1, ('posh', 'indigo'): 4}
+('clear', 'lime') : {('wavy', 'tan'): 1}
+('muted', 'gray') : {('faded', 'green'): 1, ('dull', 'silver'): 2, ('drab', 'crimson'): 4}
+('striped', 'chartreuse') : {('vibrant', 'silver'): 2, ('shiny', 'tan'): 2, ('muted', 'silver'): 3, ('shiny', 'maroon'): 2}
+('muted', 'coral') : {('dark', 'maroon'): 5, ('clear', 'lavender'): 1, ('bright', 'teal'): 4, ('faded', 'cyan'): 4}
+('posh', 'coral') : {('clear', 'brown'): 2}
+('bright', 'crimson') : {('vibrant', 'salmon'): 2}
+('muted', 'plum') : {('pale', 'silver'): 1}
+('dull', 'plum') : {('shiny', 'cyan'): 2, ('faded', 'salmon'): 3}
+('bright', 'olive') : {('dim', 'brown'): 3, ('dark', 'brown'): 5, ('muted', 'white'): 1}
+('clear', 'plum') : {('clear', 'chartreuse'): 5, ('striped', 'aqua'): 5}
+('muted', 'chartreuse') : {('faded', 'crimson'): 1, ('dark', 'cyan'): 1}
+('muted', 'purple') : {('bright', 'plum'): 1, ('light', 'olive'): 2, ('striped', 'red'): 2, ('pale', 'magenta'): 4}
+('posh', 'yellow') : {('wavy', 'purple'): 4, ('dark', 'green'): 3, ('striped', 'tomato'): 3, ('light', 'chartreuse'): 3}
+('light', 'violet') : {('plaid', 'black'): 5, ('muted', 'brown'): 1, ('vibrant', 'aqua'): 1}
+('drab', 'olive') : {('dim', 'brown'): 1, ('dull', 'blue'): 2}
+('pale', 'indigo') : {('dark', 'magenta'): 3, ('dull', 'blue'): 2}
+('mirrored', 'blue') : {('clear', 'crimson'): 5, ('clear', 'orange'): 1, ('drab', 'tomato'): 3}
+('striped', 'green') : {('shiny', 'black'): 2, ('dotted', 'chartreuse'): 4, ('wavy', 'white'): 4}
+('plaid', 'teal') : {('dark', 'green'): 4, ('muted', 'chartreuse'): 5, ('vibrant', 'aqua'): 5, ('dotted', 'olive'): 4}
+('faded', 'plum') : {('drab', 'white'): 2, ('light', 'blue'): 4, ('clear', 'lavender'): 2, ('vibrant', 'white'): 3}
+('dim', 'green') : {('faded', 'green'): 2, ('bright', 'magenta'): 2}
+('dark', 'lavender') : {('muted', 'lime'): 2, ('faded', 'tomato'): 2, ('wavy', 'purple'): 5, ('light', 'olive'): 3}
+('dim', 'purple') : {('dotted', 'plum'): 4}
+('dark', 'salmon') : {('dull', 'violet'): 1, ('bright', 'indigo'): 3}
+('dim', 'cyan') : {('dim', 'crimson'): 5, ('clear', 'brown'): 2, ('muted', 'brown'): 1, ('light', 'silver'): 4}
